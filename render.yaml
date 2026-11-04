@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: leaflens-ai
+    runtime: python
+    plan: free
+    region: singapore
+    buildCommand: bash render-build.sh
+    startCommand: bash render-start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: PYTHONUNBUFFERED
+        value: '1'
