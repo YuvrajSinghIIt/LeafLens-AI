@@ -1,0 +1,1 @@
+Data is not committed to the public repository. Training uses the publicly available PlantVillage dataset (see README). For this deployed app only saved model weights and evaluation metrics are required.
