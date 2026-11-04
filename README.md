@@ -47,6 +47,6 @@ Model: PyTorch TorchVision **MobileNetV3-Small**. Dataset: [PlantVillage](https:
 
 Course demonstration only. The model covers only five tomato-leaf categories; environmental variation and unseen diseases can reduce accuracy. Prediction confidence is not certainty.
 
-## Current repository status
+## Repository status
 
-The deployment instructions have been published. **The complete application files and checkpoint must be uploaded before this repository can be deployed as a working app.** This notice will be removed after verification.
+The Streamlit source, saved checkpoint, real metrics, Render scripts and presentation guide are committed. See `PRESENTATION_GUIDE.md` for the course walkthrough.
